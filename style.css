@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Rammetto+One&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Roboto:wght@300;400;500&display=swap");
 
 *,
 *::after,
@@ -16,7 +16,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "Abril Fatface", serif;
   font-family: "Rammetto One", sans-serif;
   font-family: "Roboto", sans-serif;
 
@@ -160,15 +160,21 @@ body {
     color: black;
     font-family: Arial;
     gap: 0.5rem;
-
-    border: 2px solid rgb(0, 0, 0);
-    padding: 6px 10px;
-    border-radius: 2px;
+    border: 2px solid rgb(145, 145, 145);
+    padding: 6px 15px;
+    border-radius: 20px;
     background-color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     font-family: "Roboto";
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
   }
 
   .nav-png-img {
@@ -259,7 +265,7 @@ body {
 
   .hello {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1.5px;
     word-spacing: 4px;
     font-family: "rammetto One";
@@ -281,10 +287,10 @@ body {
   }
 
   .header-Para {
-    width: 58rem;
+    width: 55rem;
     font-size: 12px;
     font-weight: 600;
-    font-family: "Roboto";
+    font-family: "roboto";
     letter-spacing: 1.5px;
     word-spacing: 4px;
     line-height: 1.3rem;
@@ -300,26 +306,38 @@ body {
   }
 
   .button-hire {
-    border-radius: 2px;
+    border-radius: 20px;
     padding: 0.6rem 1.7rem;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 18px;
+    color: #000000;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Roboto";
     letter-spacing: 3px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
   }
   .button-project {
-    border-radius: 2px;
+    border-radius: 20px;
     padding: 0.6rem 1.5rem;
-    background-color: #ffffff;
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Roboto";
     letter-spacing: 2px;
     border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
   }
 
   .social-img {
@@ -328,11 +346,11 @@ body {
     margin-top: 5rem;
     margin-left: -7rem;
     /* animation */
-    animation: social-image 1s ease 0ms 1 normal backwards;
+    /* animation: social-image 1s ease 0ms 1 normal backwards; */
   }
 
   /* Animation Social img */
-  @keyframes social-image {
+  /* @keyframes social-image {
     0% {
       opacity: 0;
       transform: translateX(250px);
@@ -342,7 +360,7 @@ body {
       opacity: 1;
       transform: translateX(0);
     }
-  }
+  } */
   .button-hire:hover {
     background: rgb(255, 255, 255);
     background: linear-gradient(
@@ -452,8 +470,14 @@ body {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border: 2px solid black;
-    background-color: rgb(170, 236, 176);
     color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
   }
 
   .fa-download {
@@ -472,11 +496,11 @@ body {
   }
 
   .btn-resume {
-    border-radius: 2px;
-    padding: 1.5rem 1.5rem;
+    border-radius: 50px;
+    padding: 1rem 1.9rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -505,7 +529,7 @@ body {
     justify-content: space-around;
     gap: 0.5rem;
     margin-top: 13rem;
-    margin-left: 52rem;
+    margin-left: 53rem;
   }
 
   .btn .fa {
@@ -527,10 +551,12 @@ body {
 
   .btn-instagram {
     border-radius: 2px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     padding: 0.6rem 1.5rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -538,10 +564,12 @@ body {
   }
   .btn-facebook {
     border-radius: 2px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     padding: 0.6rem 1.5rem;
     background-color: #ffffff;
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -549,10 +577,12 @@ body {
   }
   .btn-twitter {
     border-radius: 2px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     padding: 0.6rem 1.5rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -702,11 +732,11 @@ body {
   }
 
   .button-front {
-    border-radius: 2px;
+    border-radius: 50px;
     padding: 1.3rem 1.5rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -808,11 +838,11 @@ body {
   }
 
   .button-back {
-    border-radius: 2px;
+    border-radius: 50px;
     padding: 1.3rem 1.5rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Roboto";
     letter-spacing: 2px;
@@ -898,11 +928,11 @@ body {
   }
 
   .button-web-design {
-    border-radius: 2px;
+    border-radius: 50px;
     padding: 1.3rem 1.5rem;
     background-color: #000000;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Roboto";
     letter-spacing: 2px;
