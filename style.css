@@ -1329,693 +1329,693 @@ body {
     box-shadow: 1px 48px 0px -24px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 1px 48px 0px -24px rgba(0, 0, 0, 1);
     -moz-box-shadow: 1px 48px 0px -24px rgba(0, 0, 0, 1);
-    .footer-start {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-      gap: 1rem;
-    }
-
-    .footer-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      gap: 1rem;
-    }
-    .footer-png {
-      width: 15rem;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-    }
-    .footer-tittle {
-      width: 10rem;
-      font-size: 16px;
-      font-family: "Rammetto One";
-      font-weight: 500;
-    }
-    .footer-para {
-      width: 17rem;
-      font-size: 10px;
-      font-family: "Roboto";
-      font-weight: 200;
-      line-height: 1rem;
-      word-spacing: 2px;
-      letter-spacing: 2px;
-    }
-    .footer-icons {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 0.8rem;
-    }
-    .fa-facebook-f:hover,
-    .fa-instagram:hover,
-    .fa-linkedin-square:hover,
-    .fa-twitter:hover {
-      color: rgb(93, 173, 93);
-    }
-
-    .about-us {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 0.5rem;
-    }
-    .footer-li {
-      width: 15rem;
-      height: auto;
-      font-size: 10px;
-      font-family: "Roboto";
-      font-weight: 100;
-      line-height: 1.5rem;
-      letter-spacing: 2px;
-    }
-    .email-form {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-      gap: 8px;
-      margin-top: 1rem;
-    }
-    .emails {
-      width: 12rem;
-      height: 0.5rem;
-      border: 2px solid rgb(0, 0, 0);
-      border-radius: 50px;
-      padding: 1rem;
-      background: rgb(255, 255, 255);
-      background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 19%,
-        rgba(251, 251, 251, 1) 29%,
-        rgba(235, 235, 235, 1) 100%
-      );
-    }
-    .email-input {
-      width: 5.5rem;
-      height: 2.2rem;
-      border-radius: 50px;
-      background-color: #000000;
-      color: #fff;
-      font-family: "Roboto";
-      font-size: 12px;
-      letter-spacing: 2px;
-      font-weight: 500;
-    }
-
-    .email-input:hover {
-      background: rgb(255, 255, 255);
-      background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 19%,
-        rgba(251, 251, 251, 1) 29%,
-        rgba(235, 235, 235, 1) 100%
-      );
-      color: #000000;
-      font-weight: 600;
-      border-bottom: 4px solid #000000;
-    }
-
-    .footer-heading {
-      width: 10rem;
-      font-size: 16px;
-      font-family: "Rammetto One";
-      font-weight: 500;
-    }
-    .footer-terms {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-    }
-
-    .footer-video-loop {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .footer-video {
-      object-fit: fill;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
   }
-  /* 1024px/652 . 100% */
-  @media (max-width: 1024px) {
-    .nav-bar-details {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .top-nav {
-      margin-left: 30rem;
-    }
-    .header-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-      gap: 5rem;
-    }
-    .header-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-    }
-    .name {
-      font-size: 40px;
-    }
-    .header-Para {
-      width: 35rem;
-    }
-    .social-img {
-      width: 25rem;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-end;
-      margin-top: 10rem;
-    }
-
-    .about-me-container {
-      width: 80rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-    }
-    .about-content {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
-    .about {
-      font-size: 38px;
-    }
-    .about-Para {
-      width: 32rem;
-    }
-    .social-media {
-      margin-right: 60rem;
-      margin-top: 9rem;
-    }
-    .btn-instagram,
-    .btn-facebook,
-    .btn-twitter {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      font-size: 10px;
-      gap: 0.5rem;
-    }
-    .about-me-img {
-      margin-right: 10rem;
-    }
-    .social-media-name,
-    .btn-instagram,
-    .btn-facebook,
-    .btn-twitter {
-      margin-left: 48rem;
-    }
-
-    .fullstack-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .front-end,
-    .back-end,
-    .web-design {
-      width: 19rem;
-      height: 56rem;
-    }
-
-    .front-png,
-    .back-png,
-    .web-design-png {
-      width: 15rem;
-      height: auto;
-    }
-    .front-para,
-    .back-para,
-    .web-design-para {
-      width: 15rem;
-    }
-    .button-front,
-    .button-back,
-    .button-web-design {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      font-size: 12px;
-      gap: 0.5rem;
-    }
-
-    .tools-container {
-      width: 65rem;
-      height: auto;
-    }
-    .journey-container {
-      width: 64rem;
-      height: auto;
-    }
-    .exp-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .edu-container {
-      width: 40rem;
-      height: auto;
-    }
-    .exp-png,
-    .edu-png {
-      width: 12rem;
-      height: auto;
-    }
-    .exp-content {
-      margin-left: rem;
-    }
-    .exp-png {
-      width: 25rem;
-      height: auto;
-    }
-    .exp-head {
-      font-size: 28px;
-    }
-    .exp-para {
-      width: 38rem;
-      height: auto;
-    }
-    .btn-experience {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-    }
-    .btn-exp {
-      padding: 0.5rem 1rem;
-    }
-    .edu-head {
-      font-size: 18px;
-    }
-    .edu-tittle {
-      font-size: 10px;
-    }
-    .edu-course {
-      font-size: 10px;
-    }
-    .edu-para {
-      width: 22rem;
-      height: auto;
-    }
-    .testimonial-head {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 5rem;
-      gap: 1rem;
-    }
-    .testimonial-line {
-      text-align: center;
-    }
-    .comments-profile {
-      width: 24rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .quote-content {
-      width: 14rem;
-      height: auto;
-    }
-    .quote-para {
-      width: 16rem;
-      height: auto;
-      font-size: 10px;
-    }
-    .footer-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      gap: 3rem;
-    }
-    .footer-start {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .footer-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .footer-para {
-      width: 35rem;
-      height: auto;
-      text-align: center;
-    }
-    .footer-icons {
-      margin-left: -5rem;
-      gap: 1rem;
-    }
-    .footer-terms {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: flex-start;
-      justify-content: center;
-      gap: 1rem;
-      margin-left: 8rem;
-    }
-
-    .footer-video-loop {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .footer-video {
-      width: auto;
-      height: 80rem;
-    }
+  .footer-start {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1rem;
   }
 
-  @media (max-width: 768px) {
-    .nav-bar-details {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .top-nav {
-      margin-left: 45rem;
-    }
-    .header-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-    }
-    .header-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      margin-left: 15rem;
-    }
-    .social-img {
-      display: none;
-    }
-
-    .about-me-container {
-      width: 80rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-    }
-    .about-content {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
-
-    .social-media-name,
-    .btn-instagram,
-    .btn-facebook,
-    .btn-twitter {
-      margin-left: 34rem;
-    }
-
-    .fullstack-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin-left: 16rem;
-    }
-    .front-end,
-    .back-end,
-    .web-design {
-      width: 24rem;
-      height: auto;
-    }
-
-    .front-png,
-    .back-png,
-    .web-design-png {
-      width: 20rem;
-      height: auto;
-    }
-    .front-para,
-    .back-para,
-    .web-design-para {
-      width: 20rem;
-    }
-    .tools-container {
-      width: 80rem;
-      height: auto;
-    }
-    .journey-container {
-      width: 80rem;
-      height: auto;
-    }
-    .exp-png,
-    .edu-png {
-      width: 14rem;
-      height: auto;
-    }
-    .testimonial-head {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 26rem;
-      gap: 1rem;
-    }
-    .testimonial-line {
-      text-align: center;
-    }
-    .comments-profile {
-      width: 50rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin-left: 32rem;
-    }
-    .quote-content {
-      width: 18rem;
-      height: auto;
-    }
-    .quote-para {
-      width: 16rem;
-      height: auto;
-    }
-    .footer-container {
-      width: 66rem;
-      height: auto;
-    }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .footer-png {
+    width: 15rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-tittle {
+    width: 10rem;
+    font-size: 16px;
+    font-family: "Rammetto One";
+    font-weight: 500;
+  }
+  .footer-para {
+    width: 17rem;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 200;
+    line-height: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+  }
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  .fa-facebook-f:hover,
+  .fa-instagram:hover,
+  .fa-linkedin-square:hover,
+  .fa-twitter:hover {
+    color: rgb(93, 173, 93);
   }
 
-  @media (max-width: 425px) {
-    .nav-bar-details {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .top-nav {
-      margin-left: 45rem;
-    }
-    .header-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-    }
-    .header-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      margin-right: -20rem;
-    }
-    .name {
-      font-size: 50px;
-    }
-    .header-Para {
-      width: 52rem;
-    }
-    .social-img {
-      display: none;
-    }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .footer-li {
+    width: 15rem;
+    height: auto;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 100;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+  }
+  .email-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 8px;
+    margin-top: 1rem;
+  }
+  .emails {
+    width: 12rem;
+    height: 0.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
+  }
+  .email-input {
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
 
-    .about-me-container {
-      width: 80rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-    }
-    .about-content {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
+  .email-input:hover {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 19%,
+      rgba(251, 251, 251, 1) 29%,
+      rgba(235, 235, 235, 1) 100%
+    );
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 4px solid #000000;
+  }
 
-    .social-media-name,
-    .btn-instagram,
-    .btn-facebook,
-    .btn-twitter {
-      margin-left: 34rem;
-    }
+  .footer-heading {
+    width: 10rem;
+    font-size: 16px;
+    font-family: "Rammetto One";
+    font-weight: 500;
+  }
+  .footer-terms {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 
-    .fullstack-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 30rem;
-    }
-    .front-end,
-    .back-end,
-    .web-design {
-      width: 65rem;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+  .footer-video-loop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-video {
+    object-fit: fill;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+/* 1024px/652 . 100% */
+@media (max-width: 1024px) {
+  .nav-bar-details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top-nav {
+    margin-left: 30rem;
+  }
+  .header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .header-Para {
+    width: 35rem;
+  }
+  .social-img {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10rem;
+  }
 
-    .front-png,
-    .back-png,
-    .web-design-png {
-      width: 40rem;
-      height: auto;
-    }
-    .front-para,
-    .back-para,
-    .web-design-para {
-      width: 32rem;
-      height: auto;
-    }
-    .tools-container {
-      width: 80rem;
-      height: auto;
-    }
-    .journey-container {
-      width: 80rem;
-      height: auto;
-    }
-    .exp-png,
-    .edu-png {
-      width: 14rem;
-      height: auto;
-    }
-    .testimonial-head {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 56rem;
-      gap: 1rem;
-    }
-    .testimonial-line {
-      text-align: center;
-    }
-    .comments-profile {
-      width: 50rem;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin-left: 60rem;
-    }
-    .quote-content {
-      width: 18rem;
-      height: auto;
-    }
-    .quote-para {
-      width: 16rem;
-      height: auto;
-    }
-    .footer-container {
-      width: 66rem;
-      height: auto;
-    }
-    .footer-video-loop {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .footer-video {
-      width: auto;
-      height: 150rem;
-    }
+  .about-me-container {
+    width: 80rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .about-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about {
+    font-size: 38px;
+  }
+  .about-Para {
+    width: 32rem;
+  }
+  .social-media {
+    margin-right: 60rem;
+    margin-top: 9rem;
+  }
+  .btn-instagram,
+  .btn-facebook,
+  .btn-twitter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    gap: 0.5rem;
+  }
+  .about-me-img {
+    margin-right: 10rem;
+  }
+  .social-media-name,
+  .btn-instagram,
+  .btn-facebook,
+  .btn-twitter {
+    margin-left: 48rem;
+  }
+
+  .fullstack-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .front-end,
+  .back-end,
+  .web-design {
+    width: 19rem;
+    height: 56rem;
+  }
+
+  .front-png,
+  .back-png,
+  .web-design-png {
+    width: 15rem;
+    height: auto;
+  }
+  .front-para,
+  .back-para,
+  .web-design-para {
+    width: 15rem;
+  }
+  .button-front,
+  .button-back,
+  .button-web-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    gap: 0.5rem;
+  }
+
+  .tools-container {
+    width: 65rem;
+    height: auto;
+  }
+  .journey-container {
+    width: 64rem;
+    height: auto;
+  }
+  .exp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .edu-container {
+    width: 40rem;
+    height: auto;
+  }
+  .exp-png,
+  .edu-png {
+    width: 12rem;
+    height: auto;
+  }
+  .exp-content {
+    margin-left: rem;
+  }
+  .exp-png {
+    width: 25rem;
+    height: auto;
+  }
+  .exp-head {
+    font-size: 28px;
+  }
+  .exp-para {
+    width: 38rem;
+    height: auto;
+  }
+  .btn-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .btn-exp {
+    padding: 0.5rem 1rem;
+  }
+  .edu-head {
+    font-size: 18px;
+  }
+  .edu-tittle {
+    font-size: 10px;
+  }
+  .edu-course {
+    font-size: 10px;
+  }
+  .edu-para {
+    width: 22rem;
+    height: auto;
+  }
+  .testimonial-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    gap: 1rem;
+  }
+  .testimonial-line {
+    text-align: center;
+  }
+  .comments-profile {
+    width: 24rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote-content {
+    width: 14rem;
+    height: auto;
+  }
+  .quote-para {
+    width: 16rem;
+    height: auto;
+    font-size: 10px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+  .footer-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-para {
+    width: 35rem;
+    height: auto;
+    text-align: center;
+  }
+  .footer-icons {
+    margin-left: -5rem;
+    gap: 1rem;
+  }
+  .footer-terms {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 8rem;
+  }
+
+  .footer-video-loop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-video {
+    width: auto;
+    height: 80rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar-details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top-nav {
+    margin-left: 45rem;
+  }
+  .header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 15rem;
+  }
+  .social-img {
+    display: none;
+  }
+
+  .about-me-container {
+    width: 80rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .about-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .social-media-name,
+  .btn-instagram,
+  .btn-facebook,
+  .btn-twitter {
+    margin-left: 34rem;
+  }
+
+  .fullstack-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16rem;
+  }
+  .front-end,
+  .back-end,
+  .web-design {
+    width: 24rem;
+    height: auto;
+  }
+
+  .front-png,
+  .back-png,
+  .web-design-png {
+    width: 20rem;
+    height: auto;
+  }
+  .front-para,
+  .back-para,
+  .web-design-para {
+    width: 20rem;
+  }
+  .tools-container {
+    width: 80rem;
+    height: auto;
+  }
+  .journey-container {
+    width: 80rem;
+    height: auto;
+  }
+  .exp-png,
+  .edu-png {
+    width: 14rem;
+    height: auto;
+  }
+  .testimonial-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 26rem;
+    gap: 1rem;
+  }
+  .testimonial-line {
+    text-align: center;
+  }
+  .comments-profile {
+    width: 50rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32rem;
+  }
+  .quote-content {
+    width: 18rem;
+    height: auto;
+  }
+  .quote-para {
+    width: 16rem;
+    height: auto;
+  }
+  .footer-container {
+    width: 66rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-bar-details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top-nav {
+    margin-left: 45rem;
+  }
+  .header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: -20rem;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .header-Para {
+    width: 52rem;
+  }
+  .social-img {
+    display: none;
+  }
+
+  .about-me-container {
+    width: 80rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .about-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .social-media-name,
+  .btn-instagram,
+  .btn-facebook,
+  .btn-twitter {
+    margin-left: 34rem;
+  }
+
+  .fullstack-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30rem;
+  }
+  .front-end,
+  .back-end,
+  .web-design {
+    width: 65rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .front-png,
+  .back-png,
+  .web-design-png {
+    width: 40rem;
+    height: auto;
+  }
+  .front-para,
+  .back-para,
+  .web-design-para {
+    width: 32rem;
+    height: auto;
+  }
+  .tools-container {
+    width: 80rem;
+    height: auto;
+  }
+  .journey-container {
+    width: 80rem;
+    height: auto;
+  }
+  .exp-png,
+  .edu-png {
+    width: 14rem;
+    height: auto;
+  }
+  .testimonial-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 56rem;
+    gap: 1rem;
+  }
+  .testimonial-line {
+    text-align: center;
+  }
+  .comments-profile {
+    width: 50rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60rem;
+  }
+  .quote-content {
+    width: 18rem;
+    height: auto;
+  }
+  .quote-para {
+    width: 16rem;
+    height: auto;
+  }
+  .footer-container {
+    width: 66rem;
+    height: auto;
+  }
+  .footer-video-loop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-video {
+    width: auto;
+    height: 150rem;
   }
 }
