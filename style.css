@@ -266,6 +266,37 @@ body {
     /* Animation */
     animation: header-content 2s ease 0s 1 normal backwards;
   }
+  .name {
+    background-image: linear-gradient(
+      -225deg,
+      #4b4b4b 0%,
+      #000000 29%,
+      #ffffff 67%,
+      #9f9f9f 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-clip 5s linear infinite;
+    display: inline-block;
+  }
+
+  /* colors 
+  #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%*/
+
+  @keyframes text-clip {
+    to {
+      background-position: 200% center;
+    }
+  }
 
   .hello {
     font-size: 25px;
@@ -291,7 +322,7 @@ body {
   }
 
   .header-Para {
-    width: 55rem;
+    width: 52rem;
     font-size: 12px;
     font-weight: 600;
     font-family: "roboto";
@@ -537,7 +568,7 @@ body {
     justify-content: space-around;
     gap: 0.5rem;
     margin-top: 13rem;
-    margin-left: 53rem;
+    margin-left: 49rem;
   }
 
   .btn .fa {
@@ -998,6 +1029,27 @@ body {
     margin-bottom: 3rem;
   }
 
+  .tools-container img {
+    width: 5rem;
+    height: auto;
+    /* animation tools */
+    animation: tools-image 2s ease 5ms 10 alternate-reverse both;
+  }
+  /* Animation tools img */
+  @keyframes tools-image {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
   .tools-content {
     display: flex;
     flex-direction: column;
@@ -1049,26 +1101,6 @@ body {
     );
     border-radius: 30px;
     padding: 0.8rem;
-  }
-  .tools-container img {
-    width: 5rem;
-    height: auto;
-    /* animation tools */
-    animation: tools-image 2s ease 5ms 10 alternate-reverse both;
-  }
-  /* Animation tools img */
-  @keyframes tools-image {
-    0% {
-      opacity: 1;
-    }
-
-    50% {
-      opacity: 0.5;
-    }
-
-    100% {
-      opacity: 1;
-    }
   }
 
   /* 05 */
