@@ -1515,6 +1515,7 @@ body {
     color: #000000;
     font-weight: 600;
     border-bottom: 4px solid #000000;
+    cursor: pointer;
   }
 
   .footer-heading {
