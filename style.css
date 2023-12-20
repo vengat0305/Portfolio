@@ -1450,6 +1450,7 @@ body {
     color: rgb(93, 173, 93);
     transition: all 1s;
     transform: scale(1.7);
+    cursor: pointer;
   }
 
   .about-us {
